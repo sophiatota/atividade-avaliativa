@@ -37,6 +37,16 @@ body{
     padding: 20px 0;
 }
 
+.cabecalho-footer{
+    background-color: #081a24;
+    text-align: center;
+    width: 1025px;
+    margin: 40px auto 0 auto;
+    height: 65px;
+    padding: 20px 0;
+
+}
+
 
 
 /*.cabecalho{
@@ -106,7 +116,15 @@ h2 {
     text-align: right;
     font-size: 10px;
 }
-
+.etiqueta-footer{
+    margin-bottom: 10px;
+    color: rgba(245, 245, 245, 0.204);
+    letter-spacing: 5px;
+    text-align: center;
+    font-size: 10px;
+     
+    
+}
 /*.img-centro{
     font-a
 }*/
