@@ -24,7 +24,7 @@ body{
     max-width: 1000px;
     margin: 0 auto;
     position: relative;
-    top: 500px;
+    top: 600px;
 }
 
 
@@ -62,17 +62,18 @@ h1{
     font-size: 40px;
 }
 
-#txt{
+#txt {
     font-weight: 1000;
     text-align: center;
     position: relative;
-    top: -100px;
+    top: 30px;
     font-size: 40px;
     color: #003d53;
+    margin-top: 0;
+    padding-top: 0;
 }
 
 h2 {
-    
     position: relative;
     top: 20px;
     font-size: 17px;
