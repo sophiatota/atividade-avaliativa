@@ -16,8 +16,17 @@ body{
     max-width: 1000px;
     margin: 0 auto;
     text-align: right;
-
 }
+
+.container-2{
+    width: 100%;
+    /*largura*/
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    top: 500px;
+}
+
 
 .cabecalho {
     background-color: #081a24;
@@ -27,6 +36,8 @@ body{
     height: 65px;
     padding: 20px 0;
 }
+
+
 
 /*.cabecalho{
     background-color: #081a24;
@@ -51,14 +62,41 @@ h1{
     font-size: 40px;
 }
 
+#txt{
+    font-weight: 1000;
+    text-align: center;
+    position: relative;
+    top: -100px;
+    font-size: 40px;
+    color: #003d53;
+}
+
+h2 {
+    
+    position: relative;
+    top: 20px;
+    font-size: 17px;
+    color: #000000ad;
+    height: 27px;
+    margin-top: 1px;
+    margin-bottom: 0;
+    letter-spacing: 5px;
+    margin: 0px auto;
+    
+}
+
+
 .p-texto{
     text-align: center;
     position: relative;
     top: 500px;
     font-size: 20px;
-    color: rgba(0, 0, 0, 0.773);
-    
+    color: rgba(0, 0, 0, 0.671);
+    width: 38%;
+    margin: 80px auto;
+    margin-top: 0;
 }
+
 
 .etiqueta{
     margin-bottom: 10px;
@@ -67,6 +105,7 @@ h1{
     text-align: right;
     font-size: 10px;
 }
+
 /*.img-centro{
     font-a
 }*/
@@ -78,27 +117,58 @@ h1{
     margin-top: -40px;
 }
 
+.img-centr{
+    position: relative;
+    top: 10px;
+    width: 980px;
+    height: auto;
+}
 
+.foto {
+    text-align: center;
+    position: relative;
+    top: 500px;
 
-.titulo-secao{
-    margin-bottom: 30px;
-    padding-left: 12px;
-    border-left: 5px solid rgb(26, 25, 102);
+}
+
+.modelo {
+    display: inline-block;
+    text-align: center;
+    margin: 0px 5px;
+}
+
+.modelo img {
+    width: 270px;
+    height: 200px;
+}
+
+#txt-grande{
+    position: relative;
+    top: -670px;
+    right: -108px;
+    color: rgb(255, 255, 255);
+    font-size: 52px;
+    text-align: left;
+}
+
+#txt-pequeno{
+    position: relative;
+    top: -665px;
+    right: -108px;
+    color: rgba(255, 255, 255, 0.788);
     font-size: 25px;
+    text-align: left;
+    width: 500px;
 }
 
-.grade-cards {
-    display: grid;
-    gap: 20px; /* ESPAÇO ENTRE OS CARDS */
+.texto-dentro{
+    font-size: 30px;
+    font-weight: normal;
+    left: 15px;
 }
 
-.card{
-    padding: 24px;
-    background-color: cornsilk;
-    /*border: 1px solid crimson;*/
-    border-radius: 10px;
-    box-shadow: 0 10px 30px rgba(1, 0, 0, 0.749);
-    /*box-shadow: 0 10px 30px rgba(20, 45, 70, 0.08);*/
-    border-left: 5px solid rgb(26, 25, 102);
-    margin: 0 20px;
+p{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.356);
+
 }
