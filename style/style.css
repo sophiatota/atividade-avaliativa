@@ -27,7 +27,6 @@ body{
     top: 600px;
 }
 
-
 .cabecalho {
     background-color: #081a24;
     text-align: center;
@@ -47,23 +46,6 @@ body{
 
 }
 
-
-
-/*.cabecalho{
-    background-color: #081a24;
-    text-align: center;
-    margin: 10px, 30px, 40px, 10px;
-    height: 35px;
-    padding: 10px 20px;
-}*/
-.cabecalho h1{
-    /*seletor decendente*/
-    color: #f5bd0d;
-    font-weight: 1000;
-    /*text-align: center;*/
-    text-align: center;
-    margin: 90px, 30px, 40px, 900px;
-}
 h1{
     font-weight: 1000;
     text-align: center;
@@ -96,7 +78,6 @@ h2 {
     
 }
 
-
 .p-texto{
     text-align: center;
     position: relative;
@@ -107,7 +88,6 @@ h2 {
     margin: 80px auto;
     margin-top: 0;
 }
-
 
 .etiqueta{
     margin-bottom: 10px;
@@ -125,9 +105,7 @@ h2 {
      
     
 }
-/*.img-centro{
-    font-a
-}*/
+
 .img-logo{
     float: left;
     width: 160px;
